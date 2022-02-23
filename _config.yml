@@ -41,8 +41,8 @@ content:
         sub_title: Department Of Informatics
 
   - title: Skills & Interests
-  - layout: text
-  - content: |
+    layout: text
+    content: |
     - C
     - Python
     - \*nix Systems
