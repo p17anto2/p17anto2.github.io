@@ -39,17 +39,13 @@ content:
         title: Ionian University
         caption: 2017 - Ongoing
         sub_title: Department Of Informatics
-        description: |
-          Still meeting wonderful people and learning great skills and tricks.
-
   - title: Skills & Interests
     layout: text
     content: |
-    - C
-    - Python
-    - \*nix Systems
-    - Data Science
-
+     -C
+     -Python
+     -\*nix Systems
+     -Data Science
   - title: And Now For Something Completely Different
     layout: text
     content: | # this will include new lines to allow paragraphs
