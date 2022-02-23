@@ -35,7 +35,7 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Ionian University
         caption: 2017 - Ongoing
         sub_title: Department Of Informatics
