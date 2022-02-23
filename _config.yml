@@ -39,7 +39,8 @@ content:
         title: Ionian University
         caption: 2017 - Ongoing
         sub_title: Department Of Informatics
-        description: Still meeting wonderful people and learning new skills and tricks
+        description: |
+          Still meeting wonderful people and learning new skills and tricks.
   - title: Skills & Interests
     layout: text
     content: |
