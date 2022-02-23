@@ -71,7 +71,7 @@ content:
   - title: And Now For Something Completely Different
     layout: text
     content: | # this will include new lines to allow paragraphs
-      As well as computer science, I'm also an (aspiring) musician and (wannabe) sound engineer.
+      As well as (almost) computer scientist, I'm also an (aspiring) musician and a (wannabe) sound engineer.
 
 # Footer
 # footer_show_references: true
