@@ -59,7 +59,15 @@ content:
         caption: 2017 - 
         sub_title: Department Of Informatics
         description: |
+          I am still meeting wonderful people and learning new skills and tricks.
 
+  - title: Skills & Interests
+  - layout: text
+  - content: |
+    - C
+    - Python
+    - *nix Systems
+    - Data Science
 
   - title: And Now For Something Completely Different
     layout: text
@@ -67,7 +75,7 @@ content:
       As well as computer science, I'm also an (aspiring) musician and (wannabe) sound engineer.
 
 # Footer
-footer_show_references: true
+# footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
