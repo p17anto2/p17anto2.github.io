@@ -35,17 +35,17 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Ionian University
         caption: 2017 - Ongoing
         sub_title: Department Of Informatics
   - title: Skills & Interests
     layout: text
     content: |
-     -C
-     -Python
-     -\*nix Systems
-     -Data Science
+    - C
+    - Python
+    - \*nix Systems
+    - Data Science
   - title: And Now For Something Completely Different
     layout: text
     content: | # this will include new lines to allow paragraphs
