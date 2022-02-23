@@ -72,17 +72,11 @@ content:
         title: Ionian University
         caption: 2017 - 
         sub_title: Department Of Informatics
-        description: | # this will include new lines to allow paragraphs
-          # During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
 
   - title: And Now For Something Completely Different
     layout: text
     content: | # this will include new lines to allow paragraphs
       As well as computer science, I'm also an (aspiring) musician and (wannabe) sound engineer.
-
-      # Look at this cool image  
-      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
