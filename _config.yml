@@ -35,16 +35,16 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Ionian University
         caption: 2017 - Ongoing
         sub_title: Department Of Informatics
-        description: |
+        description: | #
           Still meeting wonderful people and learning new skills and tricks.
 
   - title: Skills and Interests
     layout: text
-    content: |
+    content: | #
     - C
     - Python
     - \*nix Systems
