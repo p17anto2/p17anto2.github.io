@@ -42,13 +42,13 @@ content:
         description: | #
           Still meeting wonderful people and learning new skills and tricks.
 
-  # - title: Skills and Interests
-  #   layout: text
-  #   content: | #
-  #   - C
-  #   - Python
-  #   - \*nix Systems
-  #   - Data Science
+  - title: Skills and Interests
+    layout: text
+    content: | #
+      - C
+      - Python
+      - \*nix Systems
+      - Data Science
   - title: And Now For Something Completely Different
     layout: text
     content: | # this will include new lines to allow paragraphs
