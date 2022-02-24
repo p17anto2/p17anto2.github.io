@@ -40,10 +40,9 @@ content:
         caption: 2017 - Ongoing
         sub_title: Department Of Informatics
         description: |
-
           Still meeting wonderful people and learning new skills and tricks.
 
-  - title: Skills \& Interests
+  - title: Skills and Interests
     layout: text
     content: |
     - C
