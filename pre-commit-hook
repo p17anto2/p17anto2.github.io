@@ -9,8 +9,8 @@ printf '\033[01;32mDeploying site\033[m\n'
     exit 1
 
 printf '\033[01;32mCreating PDF\033[m\n'
-pandoc --pdf-engine=wkhtmltopdf --css=assets/main.css \
-    -f html -t pdf index.html -o test.pdf
+pandoc --pdf-engine=wkhtmltopdf --css=_site/assets/main.css \
+    -f html -t pdf _site/index.html -o resume.pdf
 [ ! "$?" -eq 0 ] && \
     printf 'Error: PDF creation failed\n' && \
     exit 1
