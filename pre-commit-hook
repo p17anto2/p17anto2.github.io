@@ -1,0 +1,18 @@
+#!/bin/sh
+
+git stash -k
+
+printf '\033[01;32mDeploying site\033[m\n'
+
+[ ! "$(bundle exec jekyll build)" ] && \
+    printf 'Error: Site failed to build' && \
+    exit 1
+
+printf '\033[01;32mCreating PDF\033[m\n'
+pandoc --pdf-engine=wkhtmltopdf --css=assets/main.css \
+    -f html -t pdf index.html -o test.pdf
+[ ! "$?" -eq 0 ] && \
+    printf 'Error: PDF creation failed\n' && \
+    exit 1
+
+git add -u
